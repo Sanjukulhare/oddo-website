@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: helvetica;
+
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: aquamarine;
+}
+nav .left{
+    font-size: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+nav .mid ul > li{
+    font-size: 15px;
+  display:inline-block;
+   list-style: none;
+   margin: 20px;
+}
+nav .right{
+    font-size: 20px;
+    margin-top:20px ;
+    margin-right:90px ;
+}
+nav .right button{
+    padding: 2px 5px 2px 5px;
+    border-radius: 1px;
+    background-color: #714b67;
+    gap: 20px;
+}
+.page1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page1 h1{
+    font-size: 70px;
+   
+}
+.page1 p{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+   
+}
+.page1 button{
+   padding: 10px 20px 10px 20px;
+   margin: 8px;
+}
+video {
+    height:116%;
+    width: 100%;
+}
+
+.page2 h1{
+    font-size: 90px;
+    margin-left: 400px;
+}
+.page2 p{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 400px;
+}
+
+.page2 .content{
+    display:flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 70px;
+    margin-top: 60px;
+    background-color: #f3f4f6;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+}
+.page2 .content h2{
+    margin-top: 200px;
+    text-align: center;
+}
+.page2 .content h4{
+    margin-top: 215px;
+} 
+.page3 h3 {
+   position: absolute;
+   left: 40%;
+  margin-top: 80px;
+  font-size: 20px;
+  color: #898e98;
+   
+}
+.page3 h1 {
+    position: absolute;
+    left: 42%;
+    margin-top: 90px;
+    padding-top: 15px;
+    
+ }
+ .page3 img{
+    height: 700px;
+    margin-left: 200px;
+    margin-top: 200px;
+ } 
+.page4 img{
+    margin-left: 700px;
+    margin-top: 50px;
+}
+ .page4 h1{
+    font-size: 50px;
+    margin-left:500px ;
+    
+ }
+ .page4 p{
+    font-size: 25px;
+    margin-left: 400px;
+    padding-top: 30px;
+ }
+ .page4 video{
+    width: 70%;
+    height: 50%;
+    margin-left: 240px;
+    margin-top: 150px;
+ }
+ .page5{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+ }
+ .page5-content{
+    width: 40%;
+ }
+.page5 img{
+    width: 400px;
+    height: 400px;
+   animation-name: move;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+@keyframes move {
+    from{
+        rotate:0deg ;
+    }
+    to{
+        rotate: 360deg;
+        /* motion-rotation:360deg ; */
+    }
+}
+.page5 h1{
+    font-size: 80px;
+    padding-top: 200px;
+    margin-left: 110px;
+}
+.page5 p{
+    font-size: 20px;
+    padding-top: 30px; 
+    margin-left: 110px;
+}
+.page6{
+    width: 80%;
+    height: 70%;
+    border-radius: 30px;
+    margin-left: 150px;
+    background-color:#714b67;
+    /* margin-left: 150px; */
+    color: white;
+    position: relative;
+   
+
+}
+
+.box{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+
+.box h1{
+    font-size: 50px;
+}
+.box p{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.page7{
+    width: 100%;
+    height: 50%;
+  
+}
+.page7-content{
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+   
+}
+.page7-content h1{
+    font-size: 70px;
+}
+.page7-content button{
+    padding: 10px 15px 10px 15px;
+    background-color: #714b67;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.page8{
+    width: 100%;
+    height: 70%;
+    background-color: aquamarine;
+}
+.page8 h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+   
+}
+.footer{
+    width: 100%;
+}
+.footer .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+}
+.footer-row .footer-col h4{
+    color:black;
+    font-size:1.2rem;
+    font-weight: 400;
+}
+.footer-col .links{
+    margin-top: 20px;
+}
+.footer-col .links li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-col .links li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-col .links li a:hover{
+    color:orange;
+}
+.footer-col p{
+    margin: 20px 0;
+    color: black;
+    max-width: 300px;
+}
+
+.footer-col .icons{
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    cursor: pointer;
+}
+.footer-col .icons i{
+    color: orange;
+}
+.footer-col .icons i:hover{
+    color: #fff;
+}
